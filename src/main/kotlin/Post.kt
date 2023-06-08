@@ -5,7 +5,7 @@ data class Post(
     val friendsOnly: Boolean = false,
     val comments: Comment = Comment() ,
     val postType: String = "post",
-    val signer_id: Int = 0,
+    val signerId: Int = 0,
     val canPin: Boolean = true,
     val canDelete: Boolean = true,
     val canEdit: Boolean = true,
