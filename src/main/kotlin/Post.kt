@@ -22,5 +22,6 @@ data class Post(
     val isPinned: Boolean = false,
     val markedAsAds: Boolean?= null,
     val isFavorite: Boolean?= null,
-    val postponedId: Int?= null
+    val postponedId: Int?= null,
+    val attachment: Array<Attachment> = emptyArray()
 )
