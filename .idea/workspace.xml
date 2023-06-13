@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b0894a9-214d-4c9f-bf8d-910ba08047b0" name="Changes" comment="Add Nullable" />
+    <list default="true" id="2b0894a9-214d-4c9f-bf8d-910ba08047b0" name="Changes" comment="Correct work with NUllable">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Attachment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AttachmentsType.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -120,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686660245436</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Correct work with NUllable">
+      <created>1686664054478</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686664054478</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +150,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Rework test witg @before &#10;Add counter to singletone for id&#10;Change name signer_id to camelcase&#10;In update now in array addimg only copy of post" />
     <MESSAGE value="Add Nullable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Nullable" />
+    <MESSAGE value="Correct work with NUllable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct work with NUllable" />
   </component>
 </project>
