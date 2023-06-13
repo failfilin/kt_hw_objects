@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b0894a9-214d-4c9f-bf8d-910ba08047b0" name="Changes" comment="Rework test witg @before &#10;Add counter to singletone for id&#10;Change name signer_id to camelcase&#10;In update now in array addimg only copy of post">
+    <list default="true" id="2b0894a9-214d-4c9f-bf8d-910ba08047b0" name="Changes" comment="Add Nullable">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/CopyRight.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Geo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Likes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Repost.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Views.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Post.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Post.kt" afterDir="false" />
     </list>
@@ -51,6 +56,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -106,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686209569419</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Nullable">
+      <created>1686658390680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686658390680</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Rework test witg @before &#10;Add counter to singletone for id&#10;Change name signer_id to camelcase&#10;In update now in array addimg only copy of post" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rework test witg @before &#10;Add counter to singletone for id&#10;Change name signer_id to camelcase&#10;In update now in array addimg only copy of post" />
+    <MESSAGE value="Add Nullable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Nullable" />
   </component>
 </project>
