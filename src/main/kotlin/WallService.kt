@@ -3,7 +3,7 @@ import java.lang.RuntimeException
 object WallService {
     private var posts = emptyArray<Post>()
     private var nextId = 1
-    var nextCommentId = 1
+    private var nextCommentId = 1
     private var comments = emptyArray<Comment>()
     fun add(postToAdd: Post): Post {
         val postWithId = postToAdd.copy(id = nextId)
