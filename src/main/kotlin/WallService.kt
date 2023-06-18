@@ -3,6 +3,7 @@ import java.lang.RuntimeException
 object WallService {
     private var posts = emptyArray<Post>()
     private var nextId = 1
+    var nextCommentId = 1
     private var comments = emptyArray<Comment>()
     fun add(postToAdd: Post): Post {
         val postWithId = postToAdd.copy(id = nextId)
@@ -24,10 +25,10 @@ object WallService {
     fun clear() {
         posts = emptyArray()
         nextId = 1
+        nextCommentId = 1
     }
 
     fun createComment(postId: Int, comment: Comment): Comment {
-        var nextCommentId = 1
         for ((id, post) in posts.withIndex()) {
             if (post.id == postId) {
                 val commentWithId = comment.copy(id=nextCommentId)
@@ -36,7 +37,7 @@ object WallService {
                 return comments.last()
             }
         }
-        throw PostNotFoundException("No post with id = $nextCommentId")
+        throw PostNotFoundException("No post with id = $postId")
     }
 }
 
