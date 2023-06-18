@@ -1,6 +1,9 @@
+import java.lang.RuntimeException
+
 object WallService {
     private var posts = emptyArray<Post>()
     private var nextId = 1
+    private var comments = emptyArray<Comment>()
     fun add(postToAdd: Post): Post {
         val postWithId = postToAdd.copy(id = nextId)
         posts += postWithId
@@ -22,4 +25,19 @@ object WallService {
         posts = emptyArray()
         nextId = 1
     }
+
+    fun createComment(postId: Int, comment: Comment): Comment {
+        var nextCommentId = 1
+        for ((id, post) in posts.withIndex()) {
+            if (post.id == postId) {
+                val commentWithId = comment.copy(id=nextCommentId)
+                nextCommentId += 1
+                comments += commentWithId.copy()
+                return comments.last()
+            }
+        }
+        throw PostNotFoundException("No post with id = $nextCommentId")
+    }
 }
+
+class PostNotFoundException(message: String) : RuntimeException(message)
